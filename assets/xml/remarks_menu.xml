@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>  
+    <item id="home" text="Home" imgdis="fa fa-home" img="fa fa-home"></item>
+
+    <item id="remarks" text="Remarks" imgdis="fa fa-sticky-note-o" img="fa fa-sticky-note-o">
+        <item id="view_remarks" text="Danh sách Remarks" imgdis="fa fa-list" img="fa fa-list" />
+        <item id="create_remark" text="Tạo Remark mới" imgdis="fa fa-plus-circle" img="fa fa-plus-circle" />
+    </item>
+
+    <item id="conditions" text="Điều kiện" imgdis="fa fa-check-square-o" img="fa fa-check-square-o">
+        <item id="view_conditions" text="Danh sách Điều kiện" imgdis="fa fa-list" img="fa fa-list" />
+        <item id="create_condition" text="Tạo Điều kiện mới" imgdis="fa fa-plus-circle" img="fa fa-plus-circle" />
+    </item>
+
+    <item id="reports" text="Reports" imgdis="fa fa-download" img="fa fa-download"></item>
+
+    <item id="come_back_planning" text="Quay về làm lệnh" imgdis="fa fa-undo" img="fa fa-undo"></item>
+
+</menu>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>  
+    <item id="home" text="Home" imgdis="fa fa-home" img="fa fa-home"></item>
+    
+    <item id="master_data" text="Master Data" imgdis="fa fa-database" img="fa fa-database">
+        <item id="views" text="Hiển thị Master Data" imgdis="fa fa-th" img="fa fa-th" />
+        <item id="add_item" text="Thêm Item mới" imgdis="fa fa-plus-circle" img="fa fa-plus-circle" />
+        <item id="imports" text="Imports as Excel (.XLSX)" imgdis="fa fa-upload" img="fa fa-upload"/>
+        <item id="exports" text="Exports as Excel (.XLSX)" imgdis="fa fa-download" img="fa fa-download"/>
+        <item id="sample_file" text="Download file mẫu" imgdis="fa fa-cloud-download" img="fa fa-cloud-download"/>
+    </item>
+
+    <item id="master_material" text="Material" imgdis="fa fa-database" img="fa fa-database">
+        <item id="views_material" text="Hiển thị Material" imgdis="fa fa-th" img="fa fa-th" />
+        <item id="add_material" text="Thêm Material mới" imgdis="fa fa-plus-circle" img="fa fa-plus-circle" />
+        <item id="imports_material" text="Imports as Excel (.XLSX)" imgdis="fa fa-upload" img="fa fa-upload"/>
+        <item id="exports_material" text="Exports as Excel (.XLSX)" imgdis="fa fa-download" img="fa fa-download"/>
+        <item id="sample_file_material" text="Download file mẫu" imgdis="fa fa-cloud-download" img="fa fa-cloud-download"/>
+    </item>
+
+    <item id="other_master_data" text="Các Master Data khác" imgdis="fa fa-database" img="fa fa-database">
+        <item id="machine" text="Machine" imgdis="fa fa-th" img="fa fa-th" />
+        <item id="scrap" text="Scrap" imgdis="fa fa-th" img="fa fa-th" />
+    </item>
+
+    <item id="export_old_master_data" text="Exports Master Data cũ sang Format mới" imgdis="fa fa-cloud-download" img="fa fa-cloud-download"></item>
+    
+
+    <item id="come_back_planning" text="Quay về làm lệnh" imgdis="fa fa-undo" img="fa fa-undo"></item>
+
+</menu>

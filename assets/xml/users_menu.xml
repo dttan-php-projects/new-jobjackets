@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>  
+    <item id="home" text="Home" imgdis="fa fa-home" img="fa fa-home"></item>
+
+    <item id="users" text="Users" imgdis="fa fa-users" img="fa fa-users">
+        <item id="create_user" text="Tạo User mới" imgdis="fa fa-user-plus" img="fa fa-user-plus" />
+        <item id="view_user" text="Danh sách Users" imgdis="fa fa-list" img="fa fa-list" />
+    </item>
+
+    <item id="come_back_planning" text="Quay về làm lệnh" imgdis="fa fa-undo" img="fa fa-undo"></item>
+
+
+</menu>

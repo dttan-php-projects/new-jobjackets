@@ -1,0 +1,33 @@
+[{
+        "id": "home",
+        "text": "Home"
+    },
+    { "id": "sep_top_1", "type": "separator" },
+    {
+        "id": "remarks",
+        "text": "Remarks",
+        "items": [
+            { "id": "view_remarks", "text": "Danh sách Remark", "img": "open.gif", "imgdis": "open.gif" },
+            { "id": "create_remark", "text": "Thêm Remark", "img": "new.gif", "imgdis": "new.gif" }
+        ]
+    },
+    { "id": "sep_top_2", "type": "separator" },
+    {
+        "id": "conditions",
+        "text": "Điều kiện",
+        "items": [
+            { "id": "view_conditions", "text": "Danh sách Điều kiện", "img": "open.gif", "imgdis": "open.gif" },
+            { "id": "create_condition", "text": "Thêm Điều kiện", "img": "new.gif", "imgdis": "new.gif" }
+        ]
+    },
+    { "id": "sep_top_3", "type": "separator" },
+    {
+        "id": "report",
+        "text": "Report"
+    },
+    { "id": "sep_top_10", "type": "separator" },
+    {
+        "id": "return",
+        "text": "Quay lại làm lệnh"
+    },
+]

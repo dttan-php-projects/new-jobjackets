@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>  
+    <item id="home" text="Home" imgdis="fa fa-home" img="fa fa-home"></item>
+
+    <item id="prepress_oh" text="Prepress OH" imgdis="fa fa-database" img="fa fa-database"></item>
+    <item id="master_data" text="Master Data" imgdis="fa fa-database" img="fa fa-database"></item>
+
+    <item id="reports" text="Reports" imgdis="fa fa-cloud-download" img="fa fa-cloud-download">
+        <item id="view_reports" text="Hiển thị dữ liệu Reports" imgdis="fa fa-list" img="fa fa-list" />
+        <!-- <item id="report_form_type" text="Xuất dữ liệu theo Form đang làm" imgdis="fa fa-cloud-download" img="fa fa-cloud-download" /> -->
+        <!-- <item id="report_all" text="Xuất dữ liệu tất cả Form" imgdis="fa fa-cloud-download" img="fa fa-cloud-download" /> -->
+    </item>
+
+    <item id="users" text="Users" imgdis="fa fa-users" img="fa fa-users">
+        <item id="create_user" text="Tạo User mới" imgdis="fa fa-user-plus" img="fa fa-user-plus" />
+        <item id="view_user" text="Danh sách Users" imgdis="fa fa-list" img="fa fa-list" />
+    </item>
+
+    <item id="remarks" text="Remarks" imgdis="fa fa-sticky-note" img="fa fa-sticky-note"></item>
+
+    <item id="options" text="Options" imgdis="fa fa-filter" img="fa fa-filter">
+        <item id="view_distance" text="Hiển thị Đơn theo khoảng ngày" imgdis="fa fa-calendar-o" img="fa fa-calendar-o" />
+    </item>
+
+</menu>

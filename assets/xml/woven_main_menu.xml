@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>  
+    <item id="home" text="Home" imgdis="fa fa-home" img="fa fa-home"></item>
+
+    <item id="master_data" text="Master Data" imgdis="fa fa-database" img="fa fa-database">
+        <item id="view" text="Hiển thị Master Data (Main)" imgdis="fa fa-list" img="fa fa-list" />
+        <item id="import" text="Nhập file Master Data (.XLSX)" imgdis="fa fa-upload" img="fa fa-upload" />
+        <item id="exportMaster" text="Xuất dữ liệu Master Data" imgdis="fa fa-download" img="fa fa-download" />
+        <item id="exportMasterSupply" text="Xuất dữ liệu Vật tư" imgdis="fa fa-download" img="fa fa-download" />
+        <item id="sample_file" text="Download file mẫu" imgdis="fa fa-cloud-download" img="fa fa-cloud-download" />
+
+        <item id="add_item" text="Thêm Item mới" imgdis="fa fa-plus-circle" img="fa fa-plus-circle" />
+        
+        
+    </item>
+
+    <item id="other_master_data" text="Others Master" imgdis="fa fa-database" img="fa fa-database">
+        <item id="importSpecialItem" text="Remark đặc biệt vào Master Data (.XLSX)" imgdis="fa fa-upload" img="fa fa-upload" />
+        <item id="importSpecialTable" text="Remark Item đặc biệt - GRS (.XLSX)" imgdis="fa fa-upload" img="fa fa-upload" />
+        <item id="importGYCG2" text="Nhập file (.XLSX) dữ liệu GYCG2" imgdis="fa fa-upload" img="fa fa-upload" />
+        <item id="file_name_master" text="File Name Master" imgdis="fa fa-list" img="fa fa-list" />
+        <item id="updateItemKiem100" text="Update Item Kiem 100%" imgdis="fa fa-upload" img="fa fa-upload" />
+        <item id="uploadThreadLength" text="Update Chiều dài chỉ" imgdis="fa fa-upload" img="fa fa-upload" />
+    </item>
+
+    <item id="reports" text="Reports" imgdis="fa fa-download" img="fa fa-download">
+        <item id="report" text="Xuất dữ liệu đã làm lệnh" imgdis="fa fa-download" img="fa fa-download" />
+    </item>
+
+    <item id="users" text="Users" imgdis="fa fa-users" img="fa fa-users">
+        <item id="create_user" text="Tạo User mới" imgdis="fa fa-user-plus" img="fa fa-user-plus" />
+        <item id="view_user" text="Danh sách Users" imgdis="fa fa-list" img="fa fa-list" />
+    </item>
+
+    <item id="remarks" text="Remarks" imgdis="fa fa-sticky-note" img="fa fa-sticky-note"></item>
+
+    <item id="options" text="Options" imgdis="fa fa-filter" img="fa fa-filter">
+        <item id="view_distance" text="Hiển thị Đơn theo khoảng ngày" imgdis="fa fa-calendar-o" img="fa fa-calendar-o" />
+    </item>
+
+</menu>

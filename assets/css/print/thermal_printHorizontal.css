@@ -1,0 +1,561 @@
+@media print {
+    @page {
+        /* định dạng trang ngang */
+        size: A4 landscape;
+        width: 279.4mm;
+        /* height: 215.9mm; */
+        margin: 10mm;
+        padding: 0mm;
+    }
+    body {
+        zoom: 100%;
+        /* background-color: #fafafa; */
+        font: 10pt;
+        font-family: Arial, Helvetica, sans-serif;
+        /*sans-serif*/
+        width: 99%;
+        height: 99%;
+    }
+    html {
+        font-family: "Source Sans Pro", "Helvetica Neue", Helvetica;
+    }
+}
+
+#container-box {
+    position: relative;
+    background: #fff;
+    border: 1px solid #f4f4f4;
+    padding: 3px;
+    margin: 1px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 99%;
+    height: 99%;
+}
+
+#print-title-box {
+    border-bottom: 1px solid #eee;
+    background-color: #eee;
+    height: 40px;
+}
+
+#print-logo-title {
+    width: 80px;
+    float: left;
+    position: relative;
+}
+
+#print-main-title {
+    width: 50%;
+    height: 80%;
+    float: left;
+    font-weight: bold;
+    font-size: 22px;
+    position: relative;
+    text-align: center;
+    background-color: #ffb84d;
+    padding-top: 8px;
+}
+
+#barcode-box {
+    width: 100%;
+    min-height: 177px;
+}
+
+.remark-all {
+    margin-left: 10px;
+}
+
+.print-mid-date-title {
+    width: 150px;
+    height: 20px;
+    padding-top: 8px;
+    font-size: 13px;
+    float: left;
+    position: relative;
+    text-align: center;
+    background-color: aquamarine;
+    font-weight: bold;
+}
+
+.print-mid-title {
+    padding: 12px 8px 0 8px;
+    font-size: 13px;
+    float: left;
+    position: relative;
+    height: 70%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.print-mid-title-aqua {
+    background-color: aquamarine;
+}
+
+.print-mid-title-antiquewhite {
+    background-color: #ffb84d;
+}
+
+.print-right-title {
+    padding: 12px 10px 0px 10px;
+    font-size: 13px;
+    float: right;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    height: 70%;
+    width: 8%;
+}
+
+#header-details-box {
+    width: 100%;
+    min-height: 131px;
+}
+
+#order-details-top-box {
+    float: left;
+    width: 75%;
+    position: absolute;
+}
+
+#remarks-top-box {
+    float: right;
+    width: 23%;
+    text-align: center;
+    padding: 10px;
+}
+
+#remark-main-box {
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1px solid #A9A9A9;
+    /* min-height: 30px; */
+}
+
+#remark-main-box-left {
+    float: left;
+    width: 49%;
+    position: absolute;
+}
+
+#remark-main-box-right {
+    float: right;
+    width: 49%;
+}
+
+#footer-box-1 {
+    border: 1px solid #A9A9A9;
+    padding: 2px;
+}
+
+#main-box {
+    min-height: 370px;
+}
+
+#footer-box {
+    min-height: 150px;
+}
+
+#footer-box-2 {
+    width: 100%;
+}
+
+#printing-by-box {
+    float: left;
+    width: 30%;
+    position: absolute;
+    padding: 10px;
+}
+
+#trace-ability-box {
+    float: right;
+    width: 67%;
+    text-align: center;
+    padding: 10px;
+}
+
+#left-main-box {
+    width: 64.4%;
+    height: 100%;
+    float: left;
+    border-right: 1px solid #A9A9A9;
+}
+
+#right-main-box {
+    width: 35.4%;
+    height: 100%;
+    float: right;
+}
+
+#order-lable-box {
+    height: 150px;
+}
+
+#process-box {
+    height: 75px;
+}
+
+#left-process-box {
+    width: 69.5%;
+    position: relative;
+    float: left;
+}
+
+#right-process-box {
+    width: 30%;
+    position: relative;
+    float: right;
+}
+
+#header-box {
+    border-bottom: 1px solid #eee;
+    min-height: 100px;
+    width: 100%;
+    position: relative;
+}
+
+#size-box {
+    min-height: 135px;
+    padding: 0px !important;
+}
+
+#size-box-2 {
+    background-color: aquamarine;
+    color: red;
+    font-weight: bold;
+    font-size: 13px;
+    height: 18px;
+}
+
+.left-size-box {
+    position: relative;
+    float: left;
+}
+
+#right-size-box {
+    position: relative;
+    float: right;
+}
+
+#content-header-1 {
+    width: 16%;
+    float: left;
+}
+
+#content-header-2 {
+    width: 16%;
+    float: left;
+}
+
+#content-header-3 {
+    width: 16%;
+    float: left;
+}
+
+#content-header-4 {
+    width: 16%;
+    float: left;
+}
+
+#content-header-5 {
+    width: 16%;
+    float: left;
+}
+
+#content-header-6 {
+    width: 18%;
+    float: right;
+}
+
+#main-box-1 {
+    border-bottom: 1px solid #eee;
+    min-height: 137px;
+}
+
+#main-box-2 {
+    /* border: 1px solid #f4f4f4; */
+    height: 45px;
+}
+
+#content-main-2-left {
+    float: left;
+}
+
+#content-main-2-center {
+    float: left;
+}
+
+#content-main-2-right {
+    float: right;
+}
+
+.content-main-2 {
+    border: 1px solid #f4f4f4;
+    width: 33.1%;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+    min-height: 45px;
+    background-color: antiquewhite;
+    margin-bottom: 5px;
+}
+
+.content-main-2-value {
+    font-size: 9px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 12px;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 1px;
+    border: 0.8px solid rgb(185, 183, 183);
+    height: 24px;
+}
+
+th {
+    /* title */
+    background-color: #59f78d;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+.no-header {
+    font-weight: bold;
+    height: 35px;
+    border: none !important;
+}
+
+.header-bold {
+    font-weight: bold;
+}
+
+.barcode {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.po-no {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.po-no-2 {
+    font-size: 19px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.no-header-right {
+    text-align: right;
+    border: none !important;
+    width: 300px;
+    font-size: 22px;
+}
+
+.po-date-value {
+    text-align: left;
+    width: 150px;
+}
+
+.header-value {
+    font-size: 11px;
+    background-color: yellow;
+    /* width: 10%; */
+}
+
+
+/* .header-value-odd {
+    font-size: 10px;
+    width: 16%;
+} */
+
+hr.dash-break {
+    border-top: 1px dashed red;
+}
+
+hr.box-break {
+    height: 0.5px;
+    border-width: 0;
+    color: gray;
+    background-color: red;
+}
+
+.header-main-info {
+    text-align: center;
+}
+
+.data-details {
+    font-size: 10.5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.supply {
+    padding: 1px;
+}
+
+.so-line {
+    font-size: 13px;
+    width: 90px;
+}
+
+.ordered-item {
+    font-size: 13px;
+    width: 120px;
+}
+
+.internal-item {
+    font-size: 12px;
+    width: 110px;
+}
+
+.internal-item-des {
+    font-weight: initial;
+    font-size: 9pt;
+}
+
+.qty {
+    font-weight: bold;
+    font-size: 13px;
+    width: 6%;
+    text-align: center;
+}
+
+.length-width {
+    font-weight: initial;
+    font-size: 9pt;
+    width: 5%;
+    text-align: center;
+}
+
+.material-code {
+    font-weight: bold;
+    font-size: 11px;
+    width: 110px;
+}
+
+.material-qty {
+    font-weight: bold;
+    font-size: 11pt;
+    width: 6%;
+    text-align: center;
+}
+
+.ink-code {
+    font-size: 11px;
+    width: 100px;
+}
+
+.des {
+    font-weight: initial;
+    font-size: 8px;
+    /* text-align: center; */
+}
+
+.ink-qty {
+    font-weight: bold;
+    font-size: 11pt;
+    width: 6%;
+    text-align: center;
+}
+
+.qty-total {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid rgb(51, 8, 240);
+    width: 45%;
+    height: 35px;
+    padding-top: 5px;
+    float: left;
+}
+
+.qty-total-detail {
+    font-size: 11px;
+    text-transform: uppercase;
+    width: 45%;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+.qty_total_unit {
+    float: left;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+}
+
+.border-hiden {
+    border: none !important;
+}
+
+.printing-detail {
+    height: 15px;
+    font-size: smaller;
+}
+
+#bottom-box {
+    border: none;
+}
+
+#bottom-box-2 {
+    border: none;
+    min-height: 100px;
+}
+
+.packing-instr {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.remark-detail {
+    font-weight: bold;
+    color: rgb(51, 8, 240);
+    /* font-style: italic; */
+}
+
+.remark-1 {
+    font-weight: bold;
+}
+
+.remark-2 {
+    font-weight: bold;
+}
+
+.remark-3 {
+    font-weight: bold;
+}
+
+.machine-details {
+    border: 1px solid;
+    background-color: yellow;
+    font-size: 13px;
+    height: 18px;
+    padding-top: 1px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.do-kim-loai {
+    border: 1px solid;
+    background-color: yellow;
+    padding-top: 1px;
+    text-align: center;
+    font-weight: bold;
+}

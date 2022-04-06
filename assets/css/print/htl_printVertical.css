@@ -1,0 +1,227 @@
+@media print {
+    @page {
+        /* định dạng trang ngang */
+        size: A4;
+        width: 215.9mm;
+        /* height: 215.9mm; */
+        margin: 10mm;
+        padding: 0mm;
+    }
+    body {
+        zoom: 100%;
+        background-color: #fafafa;
+        font: 10pt;
+        font-family: Arial, Helvetica, sans-serif;
+        /*sans-serif*/
+        width: 99%;
+        height: 99%;
+    }
+    html {
+        font-family: "Source Sans Pro", "Helvetica Neue", Helvetica;
+    }
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 13px;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 1px;
+    border: 0.8px solid rgb(185, 183, 183);
+    height: 20px;
+}
+
+th {
+    /* title */
+    background-color: #59f78d;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+#container-box {
+    position: relative;
+    background: #fffd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 99%;
+    height: 99%;
+}
+
+#header-box {
+    border-bottom: 1px solid #eee;
+    min-height: 100px;
+    width: 99.5%;
+    position: relative;
+}
+
+#print-logo-title {
+    width: 80px;
+    float: left;
+    position: relative;
+}
+
+#print-main-title {
+    width: 87%;
+    float: left;
+    font-weight: bold;
+    font-size: 22px;
+    position: relative;
+    text-align: center;
+    background-color: #ffb84d;
+    padding: 5px;
+}
+
+#print-title-box {
+    background-color: #eee;
+    height: 40px;
+}
+
+#order-details-top-box {
+    width: 99.5%;
+    min-height: 131px;
+}
+
+.barcode {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.po-no {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content {
+    /* background-color: #66ffcc; */
+    font-weight: bold;
+}
+
+.no-header {
+    border: none !important;
+}
+
+#main-box {
+    min-height: 370px;
+}
+
+#main-box-1 {
+    border-bottom: 1px solid #eee;
+    min-height: 137px;
+}
+
+hr.dash-break {
+    border-top: 1px dashed red;
+}
+
+.highlights {
+    font-size: 16px;
+}
+
+.highlights-2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.data-details {
+    font-size: 12px;
+    text-align: center;
+    font-weight: inherit;
+}
+
+.data-details-2 {
+    font-size: 12px;
+    text-align: center;
+    font-weight: inherit;
+}
+
+.index {
+    width: 35px;
+}
+
+.so-line {
+    width: 95px;
+    font-size: 14px;
+}
+
+.qty-of-line {
+    width: 75px;
+}
+
+.uom-cost {
+    width: 70px;
+}
+
+.internal-item {
+    width: 140px;
+}
+
+.customer-item {
+    width: 140px;
+}
+
+#label-size-box {
+    width: 60%;
+}
+
+#label-size-box-2 {
+    width: 99%;
+}
+
+#tq-check-box {
+    width: 100%;
+    min-height: 140px;
+}
+
+#tq-check-box-1 {
+    float: left;
+    width: 58%;
+    font-size: 9px;
+}
+
+#tq-check-box-2 {
+    float: right;
+    width: 38%;
+    font-size: 9px;
+}
+
+#remark-main-box {
+    color: red;
+    font-weight: bold;
+    font-size: 13px;
+    border: 1px solid #A9A9A9;
+    width: 100%;
+    min-height: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#remark-main-box-left {
+    float: left;
+    width: 49%;
+    min-height: 30px;
+    /* position: absolute; */
+}
+
+#remark-main-box-right {
+    float: right;
+    width: 49%;
+    min-height: 30px;
+}
+
+.remark-top {
+    border: 2px solid red;
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+    background-color: yellow;
+}

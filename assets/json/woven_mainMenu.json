@@ -1,0 +1,54 @@
+[{
+        "id": "home",
+        "text": "Home"
+    },
+    { "id": "sep_top_1", "type": "separator" },
+    {
+        "id": "master_data",
+        "text": "Master Data",
+        "items": [
+            { "id": "view", "text": "View", "img": "open.gif", "imgdis": "open.gif" },
+            { "id": "import", "text": "Import", "img": "import.gif", "imgdis": "import.gif" },
+            { "id": "exportMaster", "text": "Export Item", "img": "downloads.gif", "imgdis": "downloads.gif" },
+            { "id": "exportMasterSupply", "text": "Export Vật tư", "img": "downloads.gif", "imgdis": "downloads.gif" },
+            { "id": "exportMasterProcess", "text": "Export Process", "img": "downloads.gif", "imgdis": "downloads.gif" },
+            { "id": "sample_file", "text": "Download File Mẫu", "img": "downloads.gif", "imgdis": "downloads.gif" },
+            { "id": "add_item", "text": "Add Item", "img": "new.gif", "imgdis": "new.gif" },
+            { "id": "importSpecialItem", "text": "Import Item Đặc biệt", "img": "import.gif", "imgdis": "import.gif" },
+            { "id": "importSpecialTable", "text": "Import Bảng Đặc Biệt (Có GRS)", "img": "import.gif", "imgdis": "import.gif" },
+            { "id": "importGYCG2", "text": "Import GYCG2", "img": "import.gif", "imgdis": "import.gif" }
+        ]
+    },
+    { "id": "sep_top_2", "type": "separator" },
+    {
+        "id": "reportAll",
+        "text": "Report",
+        "items": [
+            { "id": "report", "text": "Report PO", "img": "downloads.gif", "imgdis": "downloads.gif" }
+        ]
+    },
+    { "id": "sep_top_3", "type": "separator" },
+    {
+        "id": "users",
+        "text": "Users",
+        "items": [
+            { "id": "createUser", "text": "Create User", "img": "new.gif", "imgdis": "new.gif" },
+            { "id": "file_sep_1", "type": "separator" },
+            { "id": "viewUser", "text": "User View", "img": "open.gif", "imgdis": "open.gif" }
+        ]
+    },
+    { "id": "sep_top_10", "type": "separator" },
+    {
+        "id": "remarks",
+        "text": "Remarks"
+    },
+    { "id": "sep_top_11", "type": "separator" },
+    {
+        "id": "Options",
+        "text": "options",
+        "items": [
+            { "id": "view_distance", "text": "Hiển thị đơn theo khoảng ngày", "img": "open.gif", "imgdis": "open.gif" }
+        ]
+    },
+    { "id": "sep_top_12", "type": "separator" }
+]
